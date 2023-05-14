@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+.container > div {
+  /* background-color: red; */
+}
+.list {
+  width: fit-content;
+}
+.basicInfo{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.list li{
+  list-style-type: none;
+  /* background-color: blue; */
+ }
+
