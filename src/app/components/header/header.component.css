@@ -1,0 +1,8 @@
+.header {
+  width: 100%;
+  background-image: url("./../../../assets/header.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 90vh;
+}
