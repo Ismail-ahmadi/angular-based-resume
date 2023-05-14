@@ -1,3 +1,26 @@
 .title {
   text-align: center;
 }
+.card-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin: 1rem 1rem;
+}
+.card-left{
+  background-color: #0C6EFD;
+  text-align: center;
+  border: 1px solid #0C6EFD ;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.card-right{
+  border: 1px solid #0C6EFD ;
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+p, .card-item h1, h2 {
+  padding: 1rem 1rem 0 1rem ;
+}
+.card-item h1, .card-item h2{
+  font-size: 1.6rem;
+}
+
