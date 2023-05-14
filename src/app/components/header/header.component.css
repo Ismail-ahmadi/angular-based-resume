@@ -5,4 +5,77 @@
   background-attachment: fixed;
   background-position: center;
   height: 90vh;
+  margin: 0;
 }
+.profile {
+  /* background-color: red; */
+  width: 30%;
+  margin: 0 auto;
+  padding: 12rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.profile div{
+  align-self: center
+}
+.me{
+  width: 50%;
+  border-radius: 50%;
+  margin: 0 25%;
+  opacity: 1;
+}
+.text {
+  text-align: center;
+}
+.cta button {
+  margin-left: 0.8rem ;
+
+}
+/* div .image-me{
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+  line-height: 30vw;
+  text-align: center;
+  color: #252b37;
+  opacity: 0.5;
+  animation: textColor 10s ease infinite;
+}
+div .image-me:after {
+  position: absolute;
+  content: "";
+  top: 20vw;
+  left: 30vh;
+  right: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.55);
+  filter: blur(5vw);
+  background: linear-gradient(270deg, #0fffc1, #7e0fff);
+  background-size: 100% 100%;
+  animation: animateGlow 10s ease infinite;
+}
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes textColor {
+  0% {
+    color: #7e0fff;
+  }
+  50% {
+    color: #0fffc1;
+  }
+  100% {
+    color: #7e0fff;
+  }
+} */

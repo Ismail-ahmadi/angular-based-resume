@@ -1,0 +1,28 @@
+section {
+  height: auto;
+  margin: -5rem 0 0 0;
+}
+.items{
+  width: 25rem;
+  height: 4rem;
+  margin: 0 auto;
+}
+li{
+
+  width: auto;
+  height: 50px;
+  display: inline-block;
+  text-decoration: none;
+}
+li a{
+  padding: 0.8rem 0.8rem;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+}
+li a:hover {
+  background-color: #a4b9c9;
+  transform: scale(0.9);
+}
+img {
+  width: 1.8rem;
+}

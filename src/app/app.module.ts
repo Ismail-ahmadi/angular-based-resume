@@ -13,7 +13,7 @@ import { EducationComponent } from './components/education/education.component';
 import { ReferencesComponent } from './components/references/references.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { CtaComponent } from './reusable/cta/cta.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -29,10 +29,10 @@ import { CtaComponent } from './reusable/cta/cta.component';
     ReferencesComponent,
     ContactComponent,
     FooterComponent,
-    CtaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
