@@ -1,0 +1,17 @@
+.card-item {
+  border-bottom: 1px solid blue;
+}
+.card-item:last-child {
+  border-bottom: white;
+}
+.card-left, .card-right {
+ background-color: white;
+ border: white;
+}
+.img_ref{
+  width: 8rem;
+}
+.card-left p, h2{
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+.contact-from-container{
+  /* margin-top: -600px; */
+  margin-left: 10%;
+  width: 80%;
+  /* background-color: red; */
+  z-index: 2;
+}
+.contact-form-bg {
+  z-index: -1;
+}
