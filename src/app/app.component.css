@@ -1,5 +1,6 @@
 .title {
   text-align: center;
+  background-color: var(--bs-blue);
 }
 .card-item {
   display: grid;
