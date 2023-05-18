@@ -1,6 +1,6 @@
 .title {
   text-align: center;
-  background-color: var(--bs-blue);
+  /* background-color: var(--bs-blue); */
 }
 .card-item {
   display: grid;
@@ -24,4 +24,29 @@ p, .card-item h1, h2 {
 .card-item h1, .card-item h2{
   font-size: 1.6rem;
 }
+/* ============== Media Query=============== */
+@media screen and (max-width:1024px){
+  .card-item{
+    grid-template-columns: 1fr;
+    /* background-color: blue; */
 
+  }
+  .card-left{
+    border-radius: 0.5rem 0.5rem 0 0;
+
+  }
+  .card-left h2{
+    padding: 0 0 0.5rem 0;
+    /* color:red; */
+  }
+  .card-right{
+    border-radius: 0 0 0.4rem 0.4rem;
+  }
+}
+@media screen and (max-width:600px){
+  .card-item{
+    grid-template-columns: 1fr;
+    /* background-color: red; */
+  }
+
+}

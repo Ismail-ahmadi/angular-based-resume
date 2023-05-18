@@ -1,5 +1,6 @@
 .card-item {
   border-bottom: 1px solid blue;
+  /* background-color: red; */
 }
 .card-item:last-child {
   border-bottom: white;
@@ -8,10 +9,36 @@
  background-color: white;
  border: white;
 }
+.card-left {
+  display: grid;
+  grid-template-rows:1fr;
+  grid-template-columns: 1fr;
+}
 .img_ref{
   width: 8rem;
+  margin: 0 auto;
 }
 .card-left p, h2{
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+}
+@media screen and (max-width:1024px){
+  .card-left {
+    grid-template-columns: 1fr 3fr;
+  }
+  .card-left h2, p {
+    text-align: left;
+    padding: 1.5rem 0 0 0rem;
+  }
+
+}
+/* ============== Media Query (Small Devices)=============== */
+@media screen and (max-width:600px){
+  .card-left {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-left h2, p {
+    padding: 1.5rem 0 0.5rem 0;
+  }
+
 }

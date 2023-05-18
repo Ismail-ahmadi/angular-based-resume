@@ -1,5 +1,4 @@
-.container {
-  width: 90%;
+.container-intro {
   margin: 0 auto;
   height: fit-content;
   display: grid;
@@ -15,6 +14,9 @@
 }
 .list li{
   list-style-type: none;
-  /* background-color: blue; */
  }
-
+ @media screen and (max-width:1024px){
+  .container-intro {
+    grid-template-columns: 1fr;
+  }
+}

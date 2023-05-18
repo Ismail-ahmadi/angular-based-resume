@@ -14,6 +14,7 @@ import { ReferencesComponent } from './components/references/references.componen
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ButtonComponent } from './components/reusable/button/button.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ReferencesComponent,
     ContactComponent,
     FooterComponent,
+    ButtonComponent,
   ],
   imports: [
     BrowserModule,
