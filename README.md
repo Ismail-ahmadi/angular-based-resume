@@ -1,3 +1,6 @@
+DEMO: 
+https://angular-based-resume.vercel.app/home 
+
 # Resume
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
