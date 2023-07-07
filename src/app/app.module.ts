@@ -15,6 +15,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ButtonComponent } from './components/reusable/button/button.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './pages/home/home.component';
+import { skillData } from './components/skills/skills.data';
 
 @NgModule({
   declarations: [
@@ -31,10 +34,13 @@ import { ButtonComponent } from './components/reusable/button/button.component';
     ContactComponent,
     FooterComponent,
     ButtonComponent,
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

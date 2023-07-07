@@ -8,3 +8,6 @@
 .contact-form-bg {
   z-index: -1;
 }
+.container {
+  margin-top: 2rem;
+}

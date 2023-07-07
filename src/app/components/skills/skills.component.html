@@ -2,60 +2,11 @@
   <h1>Professional Skills</h1>
 </div>
 <section class="container shadow-lg p-3 mb-5 bg-white rounded border border-primary">
-  <div class="item">
-    <p>HTML</p>
+
+  <div class="item" *ngFor="let skill of skills">
+    <p>{{skill.name}}</p>
     <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+      <div class="progress-bar" role="progressbar" style="width: {{ skill.percentage }}%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{ skill.percentage }}%</div>
     </div>
   </div>
-
-  <div class="item">
-    <p>HTML</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-    </div>
-  </div>
-
-  <div class="item">
-    <p>HTML</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-    </div>
-  </div>
-
-  <div class="item">
-    <p>HTML</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-    </div>
-  </div>
-
-  <div class="item">
-    <p>HTML</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-    </div>
-  </div>
-
-  <div class="item">
-    <p>HTML</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-    </div>
-  </div>
-
-  <div class="item">
-    <p>HTML</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-    </div>
-  </div>
-
-  <div class="item">
-    <p>HTML</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-    </div>
-  </div>
-
 </section>
