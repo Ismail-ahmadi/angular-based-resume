@@ -1,12 +1,30 @@
 <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" >
-  <div class="container-fluid">
-    <a class="navbar-brand fw-bold h1" href="#">Web&SoftwareDev</a>
+  <div class="container-fluid container-main">
+    <a class="navbar-brand-name fw-bold h1" href="#">Web&SoftwareDev</a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> -->
+    <section class="p-menu1">
+      <nav id="navbar" class="navigation" role="navigation">
+        <input id="toggle1" type="checkbox" />
+        <label class="hamburger1" for="toggle1">
+          <div class="top"></div>
+          <div class="meat"></div>
+          <div class="bottom"></div>
+        </label>
 
-    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+        <nav class="menu1">
+          <a class="link1" routerLinkActive="active" routerLinkActive="{exact:true}" routerLink="/">Home</a>
+          <a class="link1" routerLink="/skills" >Skills</a>
+          <a class="link1" routerLink="/portfolio">Portfolio</a>
+          <a class="link1" routerLink="/experience">Experience</a>
+          <a class="link1" routerLink="/contact">Contact</a>
+        </nav>
+      </nav>
+    </section>
+
+    <div class="flex-row-reverse nav-main" id="navbarNav">
       <ul class="navbar-nav mx-16 ms-8 ">
         <li class="nav-item">
           <a class="nav-link" aria-current="page" routerLinkActive="active" routerLinkActive="{exact:true}" routerLink="/">Home</a>

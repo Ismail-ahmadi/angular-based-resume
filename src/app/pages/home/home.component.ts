@@ -8,5 +8,5 @@ import { Skill } from 'src/app/model/skill.model';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  skills : Skill[] = skillData
+  
 }
