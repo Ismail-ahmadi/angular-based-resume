@@ -8,14 +8,14 @@
   margin: 1rem 1rem;
 }
 .card-left{
-  background-color: #0C6EFD;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   text-align: center;
-  border: 1px solid #0C6EFD ;
+  border: 1px solid var(--color-primary) ;
   border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .card-right{
-  border: 1px solid #0C6EFD ;
+  border: 1px solid var(--color-primary) ;
   border-radius: 0 0.4rem 0.4rem 0;
 }
 p, .card-item h1, h2 {

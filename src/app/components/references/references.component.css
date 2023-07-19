@@ -1,5 +1,5 @@
 .card-item {
-  border-bottom: 1px solid blue;
+  /* border-bottom: 1px solid blue; */
   /* background-color: red; */
 }
 .card-item:last-child {
@@ -16,11 +16,12 @@
 }
 .img_ref{
   width: 8rem;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 .card-left p, h2{
   padding: 0;
-  margin: 0 auto;
+  margin: 20px auto;
+  color: white;
 }
 @media screen and (max-width:1024px){
   .card-left {

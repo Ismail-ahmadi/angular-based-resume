@@ -20,7 +20,7 @@ li a{
   margin: 0 0.5rem; */
   padding: 0.6rem 0.6rem;
   color:#D2D2D2;
-  background: #0C6EFD;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   border-radius:0.5rem;
   text-align:center;
   text-decoration:none;

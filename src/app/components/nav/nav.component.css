@@ -15,6 +15,9 @@
   grid-template-columns: 20rem 1fr;
   width: 100%;
 } */
+div > a {
+  font-size: 2rem;
+}
 section {
   width: 100%;
   margin-top: -10px;
@@ -166,4 +169,8 @@ a {
   /* .container-main {
     background-color: blue;
   } */
+  div > a {
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+  }
 }
